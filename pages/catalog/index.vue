@@ -5,7 +5,7 @@
     </h1>
     <div class="row">
       <div v-for="item in products" :key="item.id" class="col-sm-4">
-        <div class="card mb-4">
+        <div class="card mb-4" style="background: red">
           <div class="card-header">
             {{ item.title }}
           </div>
